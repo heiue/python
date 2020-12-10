@@ -1,0 +1,1 @@
+{"encUid": "126718B8Z", "traceId": "kih5oybr", "dsc_token": {"loginName": "18811111111", "name": "小橘子", "shopCode": "", "iid": "537974", "token": "08_doF2_hbeSRck3m7", "id": "hbeSRck3m7", "resources": []}, "expired": 1607546051, "U": "08_doF2_hbeSRck3m7", "error": 0, "msg": "登录成功", "open": 1, "is_login_check": 1, "resources": "0d26e494242f75841b24f67093f2d226", "uid": 553939}
