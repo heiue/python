@@ -1,3 +1,7 @@
+'''
+自动提交项目修改
+'''
+
 import sys
 import os
 
