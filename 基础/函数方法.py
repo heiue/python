@@ -1,6 +1,6 @@
 str = '13521282025'
 
-phone = str.replace(str[4:7], '*' * 4)
+phone = str.replace(str[3:7], '*' * 4)
 
 print(phone)
 
@@ -36,3 +36,76 @@ print(b)
 list = ['a', 'b', 'c', 'd', 'e']
 for num,str in enumerate(list):
     print(str, 'is', num + 1)
+
+
+strEx = "hello"
+print(strEx.capitalize())
+
+print(strEx.center(10, '-'))
+
+print(strEx.count('l', 2))
+
+print(strEx.encode())
+strExBy = strEx.encode()
+print(strExBy.decode())
+
+print(strEx.endswith('llo', 2))
+
+print(strEx.find('a'))
+print(strEx.index('e'))
+
+strEx = '为什么qqw'
+print(strEx.isalnum())
+print(strEx.isalpha())
+
+strEx = '123'
+print(strEx.isdigit())
+
+strEx = 'hello123'
+print(strEx.islower())
+
+strEx = 'abc'
+print(strEx.isspace())
+
+print(strEx.title())
+print(strEx.capitalize().istitle())
+
+strEx = ','
+print(strEx.join('abc'))
+
+print(len(strEx))
+
+strEx = 'abc'
+print(strEx.ljust(10, '-'))
+
+strEx = 'abcDefG '
+print(strEx.lower())
+
+print(strEx.lstrip('ab'))
+
+strEx = 'abc'
+maket = str.maketrans('abc', '123')
+print(maket)
+print(strEx.translate(maket))
+
+strEx = '13521282025'
+print(strEx.replace('2', '*', 3))
+
+strEx = 'a,b,c,d,e'
+print(strEx.split(',', 3))
+
+strEx = 'hello\nmy'
+print(strEx.splitlines())
+
+strEx = 'hello'
+print(strEx.startswith('he'))
+
+strEx = 'Hello'
+print(strEx.swapcase())
+
+print(strEx.upper())
+
+print(strEx.zfill(10))
+
+strEx = '10'
+print(strEx.isdecimal())
