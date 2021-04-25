@@ -6,7 +6,7 @@ print(list(p.glob('**/*.py')))
 
 os.getcwd()
 
-file = open('./ceshi.txt', 'r+')
+file = open('ceshi.txt', 'r+')
 # print(file.readline())
 # file.seek(9)
 # print(file.readline())
