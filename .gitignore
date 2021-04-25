@@ -1,4 +1,5 @@
 /no_use
-*.xlsx、
+*.xlsx
 .git
 .idea
+file/

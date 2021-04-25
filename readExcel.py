@@ -1,8 +1,7 @@
 from openpyxl import Workbook
-from openpyxl.compat import range
-from openpyxl.cell import get_column_letter
+from openpyxl.utils import get_column_letter
 wb = Workbook()
-dest_filename = 'empty_book2.xlsx'
+dest_filename = 'file/empty_book3.xlsx'
 ws1 = wb.active  # 第一个表
 ws1.title = "range names"  # 第一个表命名
 # 遍历第一个表的1到40行，赋值一个600内的随机数
